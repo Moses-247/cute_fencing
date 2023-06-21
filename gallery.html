@@ -1,5 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+    <style>
+        .gallery {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 20px;
+        }
+    
+        .gallery-item {
+          width: 200px;
+          height: 200px;
+          overflow: hidden;
+          position: relative;
+        }
+    
+        .gallery-item img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.3s ease;
+        }
+    
+        .gallery-item:hover img {
+          transform: scale(1.3);
+        }
+      </style>
 
 <head>
     <meta charset="UTF-8">
@@ -96,93 +122,80 @@
     </header>
     <!-- Navbar Section Exit -->
 
-    <!-- About Section Start-->
-    <section class="parallax parallax-main img1">
+    <section>
         <div class="main-wrapper wrapper">
             <div class="container">
+        <div class="gallery">
+            <div class="gallery-item">
+              <img src="images/gallery/10.jpg" alt="Image 1">
             </div>
-            <div class="container-fluid px-lg-0">
-                <div class="row">
-                    <div class="offset-lg-6 col-lg-6 offset-md-4 col-md-8 mb-5 mb-lg-0">
-                        <div class="text-end parallax parallax-1 img2">
-                            <div class="card black-card">
-                                <h3>About Us</h3>
-                                <h5>Our sole goal is to bring your vision to life, through our vast experience,
-                                    innovation and dedication</h5>
-                                <p>At Cute Fencing Limited, we are passionate about delivering exceptional fencing solutions that enhance the security, privacy,
-                                     and aesthetic appeal of your property. As a leading fencing company, we take pride in our commitment to quality craftsmanship, 
-                                     attention to detail, and outstanding customer service </p>
-                                <a href="#" class="view-link">Contact Us <img src="./images/arrow.svg" class="ms-4"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="gallery-item">
+              <img src="images/gallery/1.jpg" alt="Image 2">
             </div>
-    </section>
-    <!--About Section Exit-->
+            <div class="gallery-item">
+           <img src="images/gallery/2.jpg" alt="Image 3">
+              </div>
+              <div class="gallery-item">
+               <img src="images/gallery/3.jpg" alt="Image 4">
+              </div>
+              <div class="gallery-item">
+               <img src="images/gallery/6.jpg" alt="Image 5">
+              </div>
+              <div class="gallery-item">
+               <img src="images/gallery/5.jpg" alt="Image 6">
+              </div>
+              <div class="gallery-item">
+               <img src="images/gallery/11.jpg" alt="Image 7">
+              </div>
+              <div class="gallery-item">
+               <img src="images/gallery/12.jpg" alt="Image 8">
+              </div>
+              <div class="gallery-item">
+                <img src="images/gallery/14.jpg" alt="Image 8">
+               </div>
+               <div class="gallery-item">
+                <img src="images/gallery/15.jpg" alt="Image 8">
+               </div>
+               <div class="gallery-item">
+                <img src="images/gallery/16.jpg" alt="Image 8">
+               </div>
+               <div class="gallery-item">
+                <img src="images/gallery/17.jpg" alt="Image 8">
+               </div>
+               <div class="gallery-item">
+                <img src="images/gallery/21.jpg" alt="Image 8">
+               </div>
+               <div class="gallery-item">
+                <img src="images/gallery/23.jpg" alt="Image 8">
+               </div>
+               <div class="gallery-item">
+                <img src="images/gallery/26.jpg" alt="Image 8">
+               </div>
+               <div class="gallery-item">
+                <img src="images/gallery/27.jpg" alt="Image 8">
+               </div>
+               <div class="gallery-item">
+                <img src="images/gallery/28.jpg" alt="Image 8">
+               </div>
+               <div class="gallery-item">
+                <img src="images/gallery/31.jpg" alt="Image 8">
+               </div>
+               <div class="gallery-item">
+                <img src="images/gallery/34.jpg" alt="Image 8">
+               </div>              
+               <div class="gallery-item">
+                <img src="images/gallery/13.jpg" alt="Image 8">
+               </div>
+               <div class="gallery-item">
+                <img src="images/gallery/35.jpg" alt="Image 8">
+               </div>
 
-    <!-- Who we are Section Start-->
-    <section class="bg-black wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="sec-title">
-                        <h1 class="text-white">Who We Are</h1>
-                    </div>
-                </div>
-                <div class="col-md-7 mb-5">
-                    <p>With years of experience in the industry, our team of skilled professionals possesses the 
-                        expertise and knowledge to handle all types of fencing projects,from residential to commercial, and everything in between.
-                         We understand that each customer has unique requirements, which is why we offer a wide range of fencing options to suit various needs and preferences.</p>
-                    <br>
-                    <p>What sets us apart is our unwavering dedication to providing top-notch products and services. 
-                        We work closely with our clients, taking the time to understand their vision, offering expert guidance, 
-                        and customizing solutions that align with their goals and budget. Our goal is not only to install fences
-                         but also to create functional and visually appealing spaces that exceed our clients' expectations.</p>
-
-                </div>
-                <div class="col-md-5 mb-5">
-                    <img src="./images/about/99.jpg" class="img-fluid">
-                </div>
-            </div>
+            <!-- Add more gallery items as needed -->
+          </div>
         </div>
+    </div>
+
     </section>
-    <!--Who we are Section Exit-->
-
-
-    <!-- Process Section Start-->
-    <section class="process-wrapper wrapper">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-12">
-                    <div class="sec-title">
-                        <h1>THE PROCESS</h1>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-5">
-                    <div class="d-flex align-items-center justify-content-center process-content">
-                        <span>1</span>
-                        <p>Explore our services and give us a call to consult what services are right for you</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-5">
-                    <div class="d-flex align-items-center justify-content-center process-content">
-                        <span>2</span>
-                        <p>Explore our services and give us a call to consult what services are right for you</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-5">
-                    <div class="d-flex align-items-center justify-content-center process-content">
-                        <span>3</span>
-                        <p>Explore our services and give us a call to consult what services are right for you</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!--Process Section Exit-->
-
 
     <!-- Footer section Start-->
     <section class="footer_wrapper wrapper">
@@ -226,6 +239,7 @@
 
     <!-- Custom JS -->
     <script src="js/main.js"></script>
+    
 </body>
 
 </html>
